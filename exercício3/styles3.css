@@ -16,12 +16,13 @@ body {
     width: 400px;
 }
 
-h1 {
+h1, #numero-gerado {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
-#nova-tarefa, .add {
+.gerar {
     display: flex;
     justify-content: center;
     margin-left: auto;
@@ -37,20 +38,6 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-}
-
-li {
-    list-style: circle;
-    display: flex; /*Quando tiro aparece o style*/
-    align-items: center;
-}
-
-li input {
-    margin-left: auto;
-}
-
-li button {
-    margin: 10px 10px 10px 40px;
 }
 
 button:hover {
