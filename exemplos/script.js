@@ -17,7 +17,7 @@ document.getElementById('mostrar-variaveis').addEventListener('click', function(
 
     document.getElementById('variavel-composta').innerText = `Compostas:
     Frutas: ${frutas.join(', ')}
-    Pessoa: Nome: ${pessoa.nome}, Idade: ${pessoa.idade}, Casado: ${pessoa.casado}`
+    Pessoa: ${pessoa.nome}, Idade: ${pessoa.idade}, Casado: ${pessoa.casado}`
 
     //Variável de Variáveis
     let a = 10

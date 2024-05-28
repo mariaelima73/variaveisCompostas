@@ -21,5 +21,4 @@ function calcular(operador) {
             document.getElementById('resultado').innerText = `A soma de ${numero1} e ${numero2} é ${resultado.toFixed(2)}.`
             break
     }
-
 }

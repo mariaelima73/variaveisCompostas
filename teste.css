@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: beige;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, #lista, #resultado {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div button {
+    margin-left: 50px;
+    padding: 10px 20px;
+    border: 0;
+    border-radius: 10px;
+    font-size: 15px;
+    background-color: beige;
+    cursor: pointer;
+}
+
+div button:hover {
+    background-color: rgb(155, 155, 118);
+}
+
+div input {
+    padding: 5px;
+}
